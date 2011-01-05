@@ -1,0 +1,24 @@
+# QuoteLink - Opera extension
+
+The QuoteLink Opera extension creates links for the quotes in html file. Quotes are described by <code>blockquote</code> and <code>q</code> elements. When these elements carry, a cite attribute containing the URI of the source of the quoted text, the QuoteLink extension display it with a ⓘ.
+
+Author: Karl Dubost, Opera Software
+
+Date: 04 January 2011
+Contributor: Daniel Davis, Opera Software
+
+
+### Version 0.7 - 2011-01-05
+* remove dashes from isbn number before sending it to OpenLibrary
+* remove the unused style/ folder
+* Adding LICENSE.txt
+* Adding README.mdown
+
+### Version 0.6 - 2011-01-05
+* fixes from Daniel Davis, code performance
+* changed getAttribute('cite') by cite directly
+* adding a bit of style
+* Adding Apache 2.0 License
+
+### Version 0.5 - 2011-01-04
+* First version of the code
