@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
 
     String.prototype.startsWith = function(prefix) {
         return this.indexOf(prefix) === 0;
-    }
+    };
     
     // Get all "blockquote" and "q" elements in a single array.
     var quotes = document.querySelectorAll('blockquote, q');
