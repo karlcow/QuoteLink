@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget xmlns="http://www.w3.org/ns/widgets"
     id="http://www.la-grange.net/2011/quoteLink"
-    version="0.7">
+    version="0.71">
     <name>QuoteLink</name>
     <author href="http://www.la-grange.net/karl/">Karl Dubost</author>
-    <description xml:lang="en">Create a link for the cite attribute when specified on Q and BLOCKQUOTE. If the cite attribute contains, for example,  "urn:isbn:9782070361083", the extension creates a link to the OpenLibrary such as "http://openlibrary.org/isbn/9782070361083" </description>
+    <description xml:lang="en">Create a link for the cite attribute when specified on Q and BLOCKQUOTE.</description>
     <icon src="images/icon_64x64.png"/>
     <icon src="images/icon_18x18.png"/>
     <license href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</license>
