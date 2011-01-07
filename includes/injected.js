@@ -22,7 +22,7 @@ window.addEventListener('load', function() {
             // we link to openlibrary http://openlibrary.org/isbn/123
             
             if (cite.startsWith("urn:isbn:")) {
-                isbn = cite.substring(9).replace("-", "");
+                isbn = cite.substring(9).replace(/\-/g, "");
                 cite = "http://openlibrary.org/isbn/" + isbn;
             }
             a = document.createElement('a');
