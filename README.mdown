@@ -7,6 +7,25 @@ Author: Karl Dubost, Opera Software
 Date: 04 January 2011
 Contributor: Daniel Davis, Opera Software
 
+## How To Package and Install The Extension
+
+Create a zip file without directory for the root and rename the file .oex. You could use a command such as:
+
+    zip -r ../QuoteLink.oex ./ -x '*.git/*' -x '*.DS_Store'
+
+Once downloaded, you can drag and drop the file on the browser window. The extension is installed and active.
+
+## How to uninstall the extension
+
+If you want to deinstall the extension, go to the menu Tools, then Extension, then Extension Manager. Click on Deinstall or Deactivate.
+
+## Pre-packaged-extension
+
+You can  [download](https://github.com/karlcow/QuoteLink/downloads) a prepackaged version of QuoteLink.
+
+### Changelog
+
+See https://github.com/karlcow/QuoteLink/commits/master
 
 ### Version 0.7 - 2011-01-05
 * remove dashes from isbn number before sending it to OpenLibrary
