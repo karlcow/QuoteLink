@@ -29,8 +29,7 @@ window.addEventListener('load', function() {
             a.innerHTML = 'ⓘ';
             a.style.textDecoration = "none";
             a.style.color = "#333";
-//            a.style.opacity = "0.75";
-            a.title = "Source at " + qcite;
+            a.title = "Source at " + cite;
             quote.style.position = "relative";
             // wrapping it in a div
             div = document.createElement('div');
@@ -42,7 +41,7 @@ window.addEventListener('load', function() {
             // two cases: BLOCKQUOTE OR QUOTE
             if (quote.tagName == 'BLOCKQUOTE') {
                 div.style.right = "5px";
-                div.style.top = "5px";
+                div.style.top = "10px";
                 div.style.fontSize = "1.5em";
                 div.style.fontWeight = "800";
             } else {
