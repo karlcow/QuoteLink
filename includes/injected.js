@@ -29,8 +29,8 @@ window.addEventListener('load', function() {
             a.innerHTML = 'ⓘ';
             a.style.textDecoration = "none";
             a.style.color = "#333";
-            a.style.opacity = "0.75";
-            a.title = "Source at " + qcite
+//            a.style.opacity = "0.75";
+            a.title = "Source at " + qcite;
             quote.style.position = "relative";
             // wrapping it in a div
             div = document.createElement('div');
@@ -38,6 +38,7 @@ window.addEventListener('load', function() {
             div.style.position = "absolute";
             div.style.margin = "0";
             div.style.padding = "0";
+            div.style.zIndex = "10";
             // two cases: BLOCKQUOTE OR QUOTE
             if (quote.tagName == 'BLOCKQUOTE') {
                 div.style.right = "5px";
