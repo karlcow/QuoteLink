@@ -10,8 +10,6 @@ window.addEventListener('load', function() {
     // Get all "blockquote" and "q" elements in a single array.
     var quotes = document.querySelectorAll('blockquote, q');
     var cite, a, div, isbn;
-    var linkstyle = "position:relative;font-size:80%;font-weight:bold;text-decoration:none;margin:0;padding:0;";
-    var sourcestyle = 
     
     // Loop through the quotes array and try to get the "cite" attribute.
     for (var i = 0, quote; quote = quotes[i]; i++) {
