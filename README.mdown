@@ -4,7 +4,7 @@ The QuoteLink Opera extension creates links for the quotes in html file. Quotes 
 
 Author: Karl Dubost, Opera Software
 
-Date: 04 January 2011
+Date: 20 July 2011
 Contributor: Daniel Davis, Opera Software
 
 ## How To Package and Install The Extension
@@ -26,6 +26,10 @@ You can  [download](https://github.com/karlcow/QuoteLink/downloads) a prepackage
 ### Changelog
 
 See https://github.com/karlcow/QuoteLink/commits/master
+
+### Version 0.8 - 2011-07-20
+* tests on blockquote and q
+* Position relative to be less disruptive for the design
 
 ### Version 0.7 - 2011-01-05
 * remove dashes from isbn number before sending it to OpenLibrary

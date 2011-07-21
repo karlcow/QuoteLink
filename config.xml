@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget xmlns="http://www.w3.org/ns/widgets"
     id="http://www.la-grange.net/2011/quoteLink"
-    version="0.71">
+    version="0.8">
     <name>QuoteLink</name>
     <author href="http://www.la-grange.net/karl/">Karl Dubost</author>
     <description xml:lang="en">Create a link for the cite attribute when specified on Q and BLOCKQUOTE.</description>
