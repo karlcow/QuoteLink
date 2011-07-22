@@ -20,7 +20,7 @@ window.addEventListener('load', function() {
             // if the cite attribute starts with urn:isbn: 
             // we link to openlibrary http://openlibrary.org/isbn/123
             
-            if (cite.startsWith("urn:isbn:")) {
+            if (cite.toLowerCase().startsWith("urn:isbn:")) {
                 isbn = cite.substring(9).replace(/\-/g, "");
                 cite = "http://openlibrary.org/isbn/" + isbn;
             }

@@ -27,6 +27,12 @@ You can  [download](https://github.com/karlcow/QuoteLink/downloads) a prepackage
 
 See https://github.com/karlcow/QuoteLink/commits/master
 
+### Version 0.82 - 2011-07-22
+* Case doesn't matter for urn:isbn per http://www.ietf.org/rfc/rfc3187.txt
+
+### Version 0.81 - 2011-07-21
+* fixing typos
+
 ### Version 0.8 - 2011-07-20
 * tests on blockquote and q
 * Position relative to be less disruptive for the design
