@@ -1,3 +1,8 @@
+April 2017. Hello. 
+I'm not putting effort into this anymore. 
+This was an extension for Opera Presto. 
+I doubt the current code is working now for Opera Blink.
+
 # QuoteLink - Opera extension
 
 The QuoteLink Opera extension creates links for the quotes in html file. Quotes are described by <code>blockquote</code> and <code>q</code> elements. When these elements carry, a cite attribute containing the URI of the source of the quoted text, the QuoteLink extension display it with a ⓘ.
